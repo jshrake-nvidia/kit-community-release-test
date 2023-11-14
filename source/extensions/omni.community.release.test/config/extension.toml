@@ -20,7 +20,7 @@ name = "omni.community.release.test"
 
 # Define the C++ plugins that this extension provides.
 [[native.plugin]]
-path = "bin/*.plugin"
+path = "bin/omni.community.release.test.plugin"
 
 # Define the documentation that will be generated for this extension.
 [documentation]

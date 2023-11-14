@@ -1,0 +1,13 @@
+[package]
+title = "Kit Extension Test"
+
+# That makes it browsable in UI with "experience" filter
+keywords = ["app"]
+
+[dependencies]
+"omni.kit.uiapp" = {}
+
+
+# Register extension folder from this repo in kit
+[settings.app.exts]
+folders.'++' = ["${app}/../exts", "${app}/../extscache"]
