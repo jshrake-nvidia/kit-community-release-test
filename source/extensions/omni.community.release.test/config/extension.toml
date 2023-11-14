@@ -13,6 +13,9 @@ readme  = "docs/README.md"
 authors = ["Justin Shrake <jshrake@nvidia.com>"]
 repository = "https://github.com/jshrake-nvidia/omni.community.release.test"
 
+writeTarget.kit = false
+writeTarget.python = false
+
 # Define the Python modules that this extension provides.
 # C++ only extensions need this just so tests don't fail.
 [[python.module]]
